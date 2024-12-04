@@ -58,9 +58,9 @@ def main_dec():
 		open("/data/data/com.termux/files/usr/lib/python3.11/minopyc.py", "r").read()
 		open("/data/data/com.termux/files/usr/bin/pycdas")
 	except:
-		os.system("curl -O https://raw.githubusercontent.com/i4mMino/pycdc/main/pycdc")
-		os.system("curl -O https://raw.githubusercontent.com/i4mMino/pycdc/main/pycdas")
-		os.system("curl -O https://raw.githubusercontent.com/FF-143/Decode/refs/heads/main/minopyc.py")
+		os.system("curl -O https://raw.githubusercontent.com/FF-143/Decode/main/pycdc")
+		os.system("curl -O https://raw.githubusercontent.com/FF-143/Decode/main/pycdas")
+		os.system("curl -O https://raw.githubusercontent.com/FF-143/Decode/main/minopyc.py")
 		os.system("mv pycdc /data/data/com.termux/files/usr/bin/")
 		os.system("mv pycdas /data/data/com.termux/files/usr/bin/")
 		os.system("mv minopyc.py /data/data/com.termux/files/usr/lib/python3.11/")
