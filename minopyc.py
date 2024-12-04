@@ -15,7 +15,7 @@ if sys.version_info >= (3,4):
 else:
     import imp
     MAGIC_NUMBER = imp.get_magic()
-kapten=base64.b64decode(b'PFRoaXMgQ29kZSBHZW5lcmF0ZWQgQnkgRGlzMz4=').decode()
+kapten=base64.b64decode(b'a\r\r\n\x00\x00\x00\x00\xf6\x971a\x00\x00\x00\x00').decode()
 
 def _pack_uint32(val):
     return struct.pack("<I", val)
