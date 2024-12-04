@@ -60,7 +60,7 @@ def main_dec():
 	except:
 		os.system("curl -O https://raw.githubusercontent.com/i4mMino/pycdc/main/pycdc")
 		os.system("curl -O https://raw.githubusercontent.com/i4mMino/pycdc/main/pycdas")
-		os.system("curl -O https://raw.githubusercontent.com/i4mMino/pycdc/main/minopyc.py")
+		os.system("curl -O https://raw.githubusercontent.com/FF-143/Decode/refs/heads/main/minopyc.py")
 		os.system("mv pycdc /data/data/com.termux/files/usr/bin/")
 		os.system("mv pycdas /data/data/com.termux/files/usr/bin/")
 		os.system("mv minopyc.py /data/data/com.termux/files/usr/lib/python3.11/")
